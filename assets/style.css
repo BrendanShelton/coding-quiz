@@ -1,0 +1,110 @@
+/*styles the header*/
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    color: rgb(142, 32, 32);
+    margin: 0 5%;
+}
+
+/*changes the cursor when it hovers over "view high scores"*/
+#viewScores:hover {
+    cursor: pointer;
+}
+
+/*styles each of the sections*/
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 5% 10%;
+}
+
+/*sets the top and bottom margins of buttons*/
+button {
+    margin: 0 40%;
+}
+
+/*changes the cursor when it hovers over a button*/
+button:hover {
+    cursor: pointer;
+}
+
+#questionSection {
+    display: flex;
+    justify-content: left;
+}
+
+/*styles the list of answer choices*/
+ol {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    list-style-position: inside;
+}
+
+/*styles each answer choice*/
+li {
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2px;
+    max-width: 300px;
+}
+
+/*sets the color of the number representing the user's score at the end*/
+#score {
+    color: blue;
+}
+
+/*styles the form which records users' scores*/
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    max-width: 300px;
+    margin-left: 40%;
+}
+
+/*sets the margin of the input box of the form*/
+input {
+    margin: 10px;
+}
+
+/*styles the list of recorded scores*/
+#scoresList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style-type: none;
+    margin-left: 37%;
+    margin-top: 2%;
+}
+
+/*changes the border styling of the items in the list of recorded scores*/
+#scoresList li {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 0px;
+    
+}
+
+/*turns answer choices gray when hovered over*/
+#questionSection li:hover {
+    background-color: rgb(190, 190, 190);
+}
+
+/*turns the correct answer choice green when clicked*/
+.correct:active {
+    background-color: green;
+}
+
+/*turns the incorrect answer choice red when clicked*/
+.incorrect:active {
+    background-color: red;
+}
