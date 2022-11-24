@@ -19,6 +19,10 @@ https://brendanshelton.github.io/coding-quiz/
 ![running out of time](assets/images/quizScreenshot4.PNG)
 ![viewing recorded scores](assets/images/quizScreenshot5.PNG)
 
+## Technologies used
+
+HTML, CSS, Javascript
+
 ## Credits
 
 N/A
